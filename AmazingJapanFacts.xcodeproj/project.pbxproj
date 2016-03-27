@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26194CD01C73518200F264A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26194CCF1C73518200F264A1 /* main.m */; };
+		26194CD31C73518200F264A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26194CD21C73518200F264A1 /* AppDelegate.m */; };
+		26194CD61C73518200F264A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26194CD51C73518200F264A1 /* ViewController.m */; };
+		26194CD91C73518200F264A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26194CD71C73518200F264A1 /* Main.storyboard */; };
+		26194CDB1C73518200F264A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26194CDA1C73518200F264A1 /* Assets.xcassets */; };
+		26194CDE1C73518200F264A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26194CDC1C73518200F264A1 /* LaunchScreen.storyboard */; };
+		26194CE91C73518200F264A1 /* AmazingFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26194CE81C73518200F264A1 /* AmazingFactsTests.m */; };
+		26194CF41C73518200F264A1 /* AmazingFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26194CF31C73518200F264A1 /* AmazingFactsUITests.m */; };
+		261F6E4F1C79D8B2004BA4DB /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F6E4E1C79D8B2004BA4DB /* FactBook.m */; };
+		26F6ADB11C7F27A00094ED0D /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F6ADB01C7F27A00094ED0D /* ColorWheel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26194CE51C73518200F264A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26194CC31C73518200F264A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26194CCA1C73518200F264A1;
+			remoteInfo = AmazingFacts;
+		};
+		26194CF01C73518200F264A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26194CC31C73518200F264A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26194CCA1C73518200F264A1;
+			remoteInfo = AmazingFacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26194CCB1C73518200F264A1 /* AmazingJapanFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingJapanFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26194CCF1C73518200F264A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26194CD11C73518200F264A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26194CD21C73518200F264A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26194CD41C73518200F264A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26194CD51C73518200F264A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26194CD81C73518200F264A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26194CDA1C73518200F264A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26194CDD1C73518200F264A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26194CDF1C73518200F264A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26194CE41C73518200F264A1 /* AmazingJapanFacts.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingJapanFacts.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26194CE81C73518200F264A1 /* AmazingFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingFactsTests.m; sourceTree = "<group>"; };
+		26194CEA1C73518200F264A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26194CEF1C73518200F264A1 /* AmazingJapanFacts.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingJapanFacts.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26194CF31C73518200F264A1 /* AmazingFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingFactsUITests.m; sourceTree = "<group>"; };
+		26194CF51C73518200F264A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261F6E4D1C79D8B2004BA4DB /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		261F6E4E1C79D8B2004BA4DB /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		26F6ADAF1C7F27A00094ED0D /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		26F6ADB01C7F27A00094ED0D /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26194CC81C73518200F264A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26194CE11C73518200F264A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26194CEC1C73518200F264A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26194CC21C73518200F264A1 = {
+			isa = PBXGroup;
+			children = (
+				26194CCD1C73518200F264A1 /* AmazingJapanFacts */,
+				26194CE71C73518200F264A1 /* AmazingFactsTests */,
+				26194CF21C73518200F264A1 /* AmazingFactsUITests */,
+				26194CCC1C73518200F264A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26194CCC1C73518200F264A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26194CCB1C73518200F264A1 /* AmazingJapanFacts.app */,
+				26194CE41C73518200F264A1 /* AmazingJapanFacts.xctest */,
+				26194CEF1C73518200F264A1 /* AmazingJapanFacts.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26194CCD1C73518200F264A1 /* AmazingJapanFacts */ = {
+			isa = PBXGroup;
+			children = (
+				26194CD11C73518200F264A1 /* AppDelegate.h */,
+				26194CD21C73518200F264A1 /* AppDelegate.m */,
+				26194CD41C73518200F264A1 /* ViewController.h */,
+				26194CD51C73518200F264A1 /* ViewController.m */,
+				261F6E4D1C79D8B2004BA4DB /* FactBook.h */,
+				261F6E4E1C79D8B2004BA4DB /* FactBook.m */,
+				26F6ADAF1C7F27A00094ED0D /* ColorWheel.h */,
+				26F6ADB01C7F27A00094ED0D /* ColorWheel.m */,
+				26194CD71C73518200F264A1 /* Main.storyboard */,
+				26194CDA1C73518200F264A1 /* Assets.xcassets */,
+				26194CDC1C73518200F264A1 /* LaunchScreen.storyboard */,
+				26194CDF1C73518200F264A1 /* Info.plist */,
+				26194CCE1C73518200F264A1 /* Supporting Files */,
+			);
+			name = AmazingJapanFacts;
+			path = AmazingFacts;
+			sourceTree = "<group>";
+		};
+		26194CCE1C73518200F264A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26194CCF1C73518200F264A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26194CE71C73518200F264A1 /* AmazingFactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				26194CE81C73518200F264A1 /* AmazingFactsTests.m */,
+				26194CEA1C73518200F264A1 /* Info.plist */,
+			);
+			path = AmazingFactsTests;
+			sourceTree = "<group>";
+		};
+		26194CF21C73518200F264A1 /* AmazingFactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26194CF31C73518200F264A1 /* AmazingFactsUITests.m */,
+				26194CF51C73518200F264A1 /* Info.plist */,
+			);
+			path = AmazingFactsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26194CCA1C73518200F264A1 /* AmazingJapanFacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26194CF81C73518200F264A1 /* Build configuration list for PBXNativeTarget "AmazingJapanFacts" */;
+			buildPhases = (
+				26194CC71C73518200F264A1 /* Sources */,
+				26194CC81C73518200F264A1 /* Frameworks */,
+				26194CC91C73518200F264A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingJapanFacts;
+			productName = AmazingFacts;
+			productReference = 26194CCB1C73518200F264A1 /* AmazingJapanFacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26194CE31C73518200F264A1 /* AmazingJapanFactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26194CFB1C73518200F264A1 /* Build configuration list for PBXNativeTarget "AmazingJapanFactsTests" */;
+			buildPhases = (
+				26194CE01C73518200F264A1 /* Sources */,
+				26194CE11C73518200F264A1 /* Frameworks */,
+				26194CE21C73518200F264A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26194CE61C73518200F264A1 /* PBXTargetDependency */,
+			);
+			name = AmazingJapanFactsTests;
+			productName = AmazingFactsTests;
+			productReference = 26194CE41C73518200F264A1 /* AmazingJapanFacts.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26194CEE1C73518200F264A1 /* AmazingJapanFactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26194CFE1C73518200F264A1 /* Build configuration list for PBXNativeTarget "AmazingJapanFactsUITests" */;
+			buildPhases = (
+				26194CEB1C73518200F264A1 /* Sources */,
+				26194CEC1C73518200F264A1 /* Frameworks */,
+				26194CED1C73518200F264A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26194CF11C73518200F264A1 /* PBXTargetDependency */,
+			);
+			name = AmazingJapanFactsUITests;
+			productName = AmazingFactsUITests;
+			productReference = 26194CEF1C73518200F264A1 /* AmazingJapanFacts.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26194CC31C73518200F264A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SRV;
+				TargetAttributes = {
+					26194CCA1C73518200F264A1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7C5HQ6YL6B;
+					};
+					26194CE31C73518200F264A1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7C5HQ6YL6B;
+						TestTargetID = 26194CCA1C73518200F264A1;
+					};
+					26194CEE1C73518200F264A1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7C5HQ6YL6B;
+						TestTargetID = 26194CCA1C73518200F264A1;
+					};
+				};
+			};
+			buildConfigurationList = 26194CC61C73518200F264A1 /* Build configuration list for PBXProject "AmazingJapanFacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26194CC21C73518200F264A1;
+			productRefGroup = 26194CCC1C73518200F264A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26194CCA1C73518200F264A1 /* AmazingJapanFacts */,
+				26194CE31C73518200F264A1 /* AmazingJapanFactsTests */,
+				26194CEE1C73518200F264A1 /* AmazingJapanFactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26194CC91C73518200F264A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26194CDE1C73518200F264A1 /* LaunchScreen.storyboard in Resources */,
+				26194CDB1C73518200F264A1 /* Assets.xcassets in Resources */,
+				26194CD91C73518200F264A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26194CE21C73518200F264A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26194CED1C73518200F264A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26194CC71C73518200F264A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26194CD61C73518200F264A1 /* ViewController.m in Sources */,
+				26194CD31C73518200F264A1 /* AppDelegate.m in Sources */,
+				261F6E4F1C79D8B2004BA4DB /* FactBook.m in Sources */,
+				26194CD01C73518200F264A1 /* main.m in Sources */,
+				26F6ADB11C7F27A00094ED0D /* ColorWheel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26194CE01C73518200F264A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26194CE91C73518200F264A1 /* AmazingFactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26194CEB1C73518200F264A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26194CF41C73518200F264A1 /* AmazingFactsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26194CE61C73518200F264A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26194CCA1C73518200F264A1 /* AmazingJapanFacts */;
+			targetProxy = 26194CE51C73518200F264A1 /* PBXContainerItemProxy */;
+		};
+		26194CF11C73518200F264A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26194CCA1C73518200F264A1 /* AmazingJapanFacts */;
+			targetProxy = 26194CF01C73518200F264A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26194CD71C73518200F264A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26194CD81C73518200F264A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26194CDC1C73518200F264A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26194CDD1C73518200F264A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26194CF61C73518200F264A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26194CF71C73518200F264A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26194CF91C73518200F264A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AmazingFacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRV.AmazingFacts;
+				PRODUCT_NAME = AmazingJapanFacts;
+			};
+			name = Debug;
+		};
+		26194CFA1C73518200F264A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AmazingFacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRV.AmazingFacts;
+				PRODUCT_NAME = AmazingJapanFacts;
+			};
+			name = Release;
+		};
+		26194CFC1C73518200F264A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmazingFactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRV.AmazingFactsTests;
+				PRODUCT_NAME = AmazingJapanFacts;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingJapanFacts.app/AmazingJapanFacts";
+			};
+			name = Debug;
+		};
+		26194CFD1C73518200F264A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmazingFactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRV.AmazingFactsTests;
+				PRODUCT_NAME = AmazingJapanFacts;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingJapanFacts.app/AmazingJapanFacts";
+			};
+			name = Release;
+		};
+		26194CFF1C73518200F264A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmazingFactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRV.AmazingFactsUITests;
+				PRODUCT_NAME = AmazingJapanFacts;
+				TEST_TARGET_NAME = AmazingFacts;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		26194D001C73518200F264A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmazingFactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRV.AmazingFactsUITests;
+				PRODUCT_NAME = AmazingJapanFacts;
+				TEST_TARGET_NAME = AmazingFacts;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26194CC61C73518200F264A1 /* Build configuration list for PBXProject "AmazingJapanFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26194CF61C73518200F264A1 /* Debug */,
+				26194CF71C73518200F264A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26194CF81C73518200F264A1 /* Build configuration list for PBXNativeTarget "AmazingJapanFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26194CF91C73518200F264A1 /* Debug */,
+				26194CFA1C73518200F264A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26194CFB1C73518200F264A1 /* Build configuration list for PBXNativeTarget "AmazingJapanFactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26194CFC1C73518200F264A1 /* Debug */,
+				26194CFD1C73518200F264A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26194CFE1C73518200F264A1 /* Build configuration list for PBXNativeTarget "AmazingJapanFactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26194CFF1C73518200F264A1 /* Debug */,
+				26194D001C73518200F264A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26194CC31C73518200F264A1 /* Project object */;
+}
